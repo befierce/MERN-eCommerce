@@ -1,0 +1,15 @@
+
+
+.header{
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: center;
+}
+
+.header_inside_box{
+    width: 90%;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 14px;
+}
