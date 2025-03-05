@@ -1,0 +1,28 @@
+img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Maintains aspect ratio and fills the screen */
+  }
+
+  .image-text {
+    position: absolute; /* Positions the text relative to the .image-container */
+    top: 500px; /* Adjust this to move the text vertically */
+    left: 100px; /* Adjust this to move the text horizontally */
+    color: rgb(255, 255, 255); /* Text color */
+    font-size: 34px; /* Adjust font size */
+    font-weight: bold; /* Make the text bold */
+    background: rgba(0, 0, 0, 0.36); /* Semi-transparent background */
+    padding: 10px; /* Add some space around the text */
+    border-radius: 5px; /* Optional: rounded corners */
+    animation: fadeIn 2s ease-in-out forwards; 
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Start slightly lower */
+    }
+    to {
+        opacity: 10;
+        transform: translateY(0); /* Move to normal position */
+    }
+}

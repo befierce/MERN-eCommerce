@@ -1,13 +1,13 @@
 
 
-.header{
+.navbar{
     height: 80px;
     background-color: rgb(0, 0, 0);
     display:flex;
     justify-content: center;
 }
 
-.header_inside_box{
+.navbar_inside_box{
     width: 65%;
     justify-content: space-evenly;
     display: flex;

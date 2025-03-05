@@ -1,6 +1,6 @@
-import './Header.css';
+import './Navbar.css';
 import Button from './Button.js'
-const Header = () => {
+const Navbar = () => {
     const homeButtonHandler = ()=>{
         console.log("clicked header")
     }
@@ -20,7 +20,7 @@ const Header = () => {
     const cartButtonHandler = ()=>{
         console.log('clicked cart')
     }
-    return <div className="header">
+    return <div className="navbar">
         <div className="website_logo_box">
             <div className="website_logo">
             <h1>SPORTAHUB.goal</h1>
@@ -28,7 +28,7 @@ const Header = () => {
             
             {/* <img alt="logo" src = "065a1494-748b-436c-abcf-bd10aa460e5e.jpg"></img> */}
         </div>
-        <div className="header_inside_box">
+        <div className="navbar_inside_box">
             <Button className='home_button' onClick={homeButtonHandler}>Home</Button>
             <Button className='categories_button' onClick={categoriesButtonHandler}>Categories</Button>
             <Button className='about_button' onClick={aboutButtonHandler}>About</Button>
@@ -38,4 +38,4 @@ const Header = () => {
     </div>
 }
 
-export default Header;
+export default Navbar;
