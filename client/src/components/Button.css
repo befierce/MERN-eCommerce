@@ -16,3 +16,21 @@ button {
     color: rgb(0, 0, 0);
   }
   
+
+  .get_started_button{
+    background-color: #f5f911; /* Green */
+    color: rgb(216, 35, 35);
+    
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 44px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .get_started_button:hover{
+    background-color: #dcdf11;
+    color: rgb(165, 36, 36);
+  }
